@@ -20,10 +20,10 @@
 
 ## 💫 About Me
 
-> 👋 Hi! I'm **Himanshu Pathak** — a second-year Computer Science student and passionate developer specializing in **Full-Stack Architecture** and **Artificial Intelligence**.
+> 👋 Hi! I'm **Himanshu Pathak** — a Third-year Computer Science student and passionate developer specializing in **Full-Stack Architecture** and **Artificial Intelligence**.
 
-- 🎓 **B.Tech CSE** | 2nd Year
-- 💻 **Role:** Full-Stack Developer + AI/ML Lead
+- 🎓 **B.Tech CSE** | 3rd Year
+- 💻 **Role:** Full-Stack Developer + AI/ML Engineer
 - 🌍 **Domain:** Full-Stack Web Dev | AI/ML | Agentic Engineering
 - 🧠 **Languages:** Java, JavaScript, TypeScript, Python
 - 🔥 **Interests:** LLMs, Agentic Workflows, Microservices, Open-Source AI
