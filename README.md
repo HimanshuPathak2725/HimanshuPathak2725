@@ -5,7 +5,7 @@
 
 <!-- ANIMATED TYPING -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=60A5FA&background=00000000&center=true&vCenter=true&width=750&lines=B.Tech+CSE+%7C+2nd+Year+%F0%9F%8E%93;Full-Stack+Dev+%E2%9A%99%EF%B8%8F+%7C+AI%2FML+Lead+%F0%9F%A4%96;React+%E2%9A%9B%EF%B8%8F+%7C+Next.js+%7C+Node.js+%F0%9F%9F%A2;Building+Scalable+Apps+%26+AI+Platforms+%F0%9F%9A%80;Local-First+%7C+Open-Source+%7C+LLM+Enthusiast+%F0%9F%A7%A0" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=60A5FA&background=00000000&center=true&vCenter=true&width=750&lines=B.Tech+CSE+%7C+3rd+Year+%F0%9F%8E%93;Full-Stack+Dev+%E2%9A%99%EF%B8%8F+%7C+AI%2FML+Lead+%F0%9F%A4%96;React+%E2%9A%9B%EF%B8%8F+%7C+Next.js+%7C+Node.js+%F0%9F%9F%A2;Building+Scalable+Apps+%26+AI+Platforms+%F0%9F%9A%80;Local-First+%7C+Open-Source+%7C+LLM+Enthusiast+%F0%9F%A7%A0" alt="Typing SVG" />
 </a>
 
 <br><br>
