@@ -19,6 +19,11 @@
 
 > Hi! I'm **Himanshu Pathak** — a Third-year Computer Science student and passionate developer specializing in **Full-Stack Architecture** and **Artificial Intelligence**.
 
+## <img src="https://api.iconify.design/material-symbols:sensors.svg?color=%23ef4444" width="26" align="center" /> Live Status
+
+<!-- LIVE-STATS:START -->
+<!-- LIVE-STATS:END -->
+
 - <img src="https://api.iconify.design/material-symbols:school-rounded.svg?color=%23f59e0b" width="20" align="center" /> **B.Tech CSE** | 3rd Year
 - <img src="https://api.iconify.design/material-symbols:code-rounded.svg?color=%23ef4444" width="20" align="center" /> **Role:** Full-Stack Developer + AI/ML Engineer
 - <img src="https://api.iconify.design/material-symbols:public.svg?color=%23f97316" width="20" align="center" /> **Domain:** Full-Stack Web Dev | AI/ML | Agentic Engineering
