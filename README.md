@@ -1,23 +1,4 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EF4444,100:F59E0B&height=200&section=header&text=Himanshu%20Pathak&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20AI%2FML%20Engineer%20%7C%20Open-Source%20Enthusiast&descAlignY=60&descSize=18" width="100%"/>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=EF4444&background=00000000&center=true&vCenter=true&width=750&lines=B.Tech+CSE+%7C+3rd+Year;Full-Stack+Dev+%7C+AI%2FML+Engineer;React+%7C+Next.js+%7C+Node.js;Building+Scalable+Apps+%26+AI+Platforms;Local-First+%7C+Open-Source+%7C+LLM+Enthusiast" alt="Typing SVG" />
-</a>
-
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=HimanshuPathak2725&label=Profile+Views&color=EF4444&style=for-the-badge" />
-<img src="https://img.shields.io/github/followers/HimanshuPathak2725?label=Followers&style=for-the-badge&color=F59E0B&labelColor=1c1917" />
-
-</div>
-
----
-
-## <img src="https://api.iconify.design/material-symbols:account-circle.svg?color=%23ef4444" width="26" align="center" /> About Me
-
-> Hi! I'm **Himanshu Pathak** — a Third-year Computer Science student and passionate developer specializing in **Full-Stack Architecture** and **Artificial Intelligence**.
+![Banner Profile](https://profilyze-api.vercel.app/api/profile/banner?name=HIMANSHU+PATHAK&role=FULLSTACK+DEVELOPER&background=itachi2&tech=github&streaks=fire&view=sharingan&skills=reactjs%2Cnodejs%2Cvuejs%2Cpython%2Cgopher)
 
 ## <img src="https://api.iconify.design/material-symbols:sensors.svg?color=%23ef4444" width="26" align="center" /> Live Status
 
