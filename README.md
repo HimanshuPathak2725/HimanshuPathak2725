@@ -1,7 +1,6 @@
 <div align="center">
 
-![Banner Profile](https://profilyze-api.vercel.app/api/profile/banner?name=HIMANSHU+PATHAK&role=FULLSTACK+DEVELOPER&background=itachi2&tech=github&streaks=fire&view=sharingan&skills=reactjs%2Cnodejs%2Cvuejs%2Cpython%2Cgopher)
-
+![Banner Profile](https://profilyze-api.vercel.app/api/profile/banner?name=HIMANSHU+PATHAK&role=FULLSTACK+DEVELOPER&background=itachi2&tech=github&streaks=fire&view=sharingan&skills=reactjs%2Cnodejs%2Cvuejs%2Cpython%2Cgopher&v=2)
 <!-- Anime-style typing banner. Change `font=` to any Google Font name (e.g. Permanent+Marker, Yuji+Syuku, Bebas+Neue) -->
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Bangers&size=32&duration=3000&pause=1200&color=EF4444&center=true&vCenter=true&width=650&height=70&lines=HIMANSHU+PATHAK;FULL-STACK+%2B+AI%2FML+ENGINEER;%E3%82%88%E3%82%8D%E3%81%97%E3%81%8F!+Welcome+to+my+repo)](https://git.io/typing-svg)
 
