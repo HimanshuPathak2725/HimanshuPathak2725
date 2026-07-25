@@ -1,4 +1,11 @@
+<div align="center">
+
 ![Banner Profile](https://profilyze-api.vercel.app/api/profile/banner?name=HIMANSHU+PATHAK&role=FULLSTACK+DEVELOPER&background=itachi2&tech=github&streaks=fire&view=sharingan&skills=reactjs%2Cnodejs%2Cvuejs%2Cpython%2Cgopher)
+
+<!-- Anime-style typing banner. Change `font=` to any Google Font name (e.g. Permanent+Marker, Yuji+Syuku, Bebas+Neue) -->
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Bangers&size=32&duration=3000&pause=1200&color=EF4444&center=true&vCenter=true&width=650&height=70&lines=HIMANSHU+PATHAK;FULL-STACK+%2B+AI%2FML+ENGINEER;%E3%82%88%E3%82%8D%E3%81%97%E3%81%8F!+Welcome+to+my+repo)](https://git.io/typing-svg)
+
+</div>
 
 ## <img src="https://api.iconify.design/material-symbols:sensors.svg?color=%23ef4444" width="26" align="center" /> Live Status
 
@@ -14,6 +21,10 @@ _This section refreshes automatically via GitHub Actions every 6 hours._
 
 <!-- LIVE-STATS:END -->
 
+<table align="center" border="0" width="100%">
+<tr>
+<td width="65%" valign="top">
+
 - <img src="https://api.iconify.design/material-symbols:school-rounded.svg?color=%23f59e0b" width="20" align="center" /> **B.Tech CSE** | 3rd Year
 - <img src="https://api.iconify.design/material-symbols:code-rounded.svg?color=%23ef4444" width="20" align="center" /> **Role:** Full-Stack Developer + AI/ML Engineer
 - <img src="https://api.iconify.design/material-symbols:public.svg?color=%23f97316" width="20" align="center" /> **Domain:** Full-Stack Web Dev | AI/ML | Agentic Engineering
@@ -23,7 +34,18 @@ _This section refreshes automatically via GitHub Actions every 6 hours._
 - <img src="https://api.iconify.design/material-symbols:handshake-rounded.svg?color=%23f59e0b" width="20" align="center" /> **Open to:** Open-source AI initiatives, LLM projects & innovative web dev
 - <img src="https://api.iconify.design/material-symbols:bolt-rounded.svg?color=%23ef4444" width="20" align="center" /> **Vibe:** Local-first. Open-source. Always learning.
 
-> *"Thanks for dropping by! Let's build something amazing together"*
+</td>
+<td width="35%" align="center" valign="middle">
+
+<img src="https://media1.tenor.com/m/dAcNU9ZL7KUAAAAd/itachi-uchiha.gif" width="200"/>
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Permanent+Marker&size=16&pause=1500&color=F59E0B&center=true&vCenter=true&width=750&height=30&lines=%22Thanks+for+dropping+by!+Let's+build+something+amazing+together%22" align="center"/></a>
+</p>
 
 <br>
 
@@ -52,7 +74,7 @@ _This section refreshes automatically via GitHub Actions every 6 hours._
 </tr>
 </table>
 
----
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:EF4444,100:F59E0B&height=4&section=header" width="100%"/>
 
 ## <img src="https://api.iconify.design/material-symbols:share-reviews-rounded.svg?color=%23f97316" width="26" align="center" /> Let's Connect!
 
@@ -68,7 +90,7 @@ _This section refreshes automatically via GitHub Actions every 6 hours._
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:EF4444,100:F59E0B&height=4&section=header" width="100%"/>
 
 ## <img src="https://api.iconify.design/material-symbols:handyman.svg?color=%23f59e0b" width="26" align="center" /> Tech Arsenal
 
@@ -110,7 +132,7 @@ _This section refreshes automatically via GitHub Actions every 6 hours._
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:EF4444,100:F59E0B&height=4&section=header" width="100%"/>
 
 ## <img src="https://api.iconify.design/material-symbols:bar-chart-rounded.svg?color=%23ef4444" width="26" align="center" /> GitHub Analytics
 
@@ -124,15 +146,11 @@ _This section refreshes automatically via GitHub Actions every 6 hours._
 <br>
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=HimanshuPathak2725&bg_color=0d1117&title_color=ef4444&text_color=e2e8f0&icon_color=f59e0b&hide_border=true&count_private=true" width="48%" />
-
+<img src="https://github-stats-extended.vercel.app/api?username=HimanshuPathak2725&bg_color=0d1117&title_color=ef4444&text_color=e2e8f0&icon_color=f59e0b&hide_border=true&count_private=true" width="48%" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=HimanshuPathak2725&background=0d1117&ring=ef4444&fire=ff5733&currStreakNum=ef4444&currStreakLabel=e2e8f0&sideNums=f59e0b&sideLabels=e2e8f0&dates=e2e8f0&hide_border=true" width="48%" />
-
 <br><br>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HimanshuPathak2725&bg_color=0d1117&title_color=ef4444&text_color=e2e8f0&icon_color=f59e0b&hide_border=true&include_all_commits=true&count_private=true&layout=compact" width="40%" />
-
+ 
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=HimanshuPathak2725&bg_color=0d1117&title_color=ef4444&text_color=e2e8f0&icon_color=f59e0b&hide_border=true&include_all_commits=true&count_private=true&layout=compact" width="40%" />
 </div>
 
 <br>
@@ -159,7 +177,7 @@ _This section refreshes automatically via GitHub Actions every 6 hours._
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:EF4444,100:F59E0B&height=4&section=header" width="100%"/>
 
 ## <img src="https://api.iconify.design/material-symbols:rewarded-ads-rounded.svg?color=%23f97316" width="26" align="center" /> Achievements
 
@@ -174,7 +192,7 @@ _This section refreshes automatically via GitHub Actions every 6 hours._
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:EF4444,100:F59E0B&height=4&section=header" width="100%"/>
 
 ## <img src="https://api.iconify.design/material-symbols:equalizer-rounded.svg?color=%23ffa116" width="26" align="center" /> LeetCode Stats
 
@@ -182,7 +200,7 @@ _This section refreshes automatically via GitHub Actions every 6 hours._
 <img src="https://leetcard.jacoblin.cool/HIMANSHUPATHAK2725?theme=dark&font=JetBrains+Mono&ext=heatmap&hide_border=true&border=0&radius=10" width="60%" />
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:EF4444,100:F59E0B&height=4&section=header" width="100%"/>
 
 ## <img src="https://api.iconify.design/material-symbols:format-quote-rounded.svg?color=%23f59e0b" width="26" align="center" /> Dev Quote of the Day
 
@@ -190,7 +208,7 @@ _This section refreshes automatically via GitHub Actions every 6 hours._
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&bg_color=0d1117&title_color=ef4444&text_color=e2e8f0" width="70%" />
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:EF4444,100:F59E0B&height=4&section=header" width="100%"/>
 
 ## <img src="https://api.iconify.design/material-symbols:star-rate-rounded.svg?color=%23ef4444" width="26" align="center" /> Skill Proficiency
 
@@ -213,8 +231,11 @@ _This section refreshes automatically via GitHub Actions every 6 hours._
 
 ### <img src="https://api.iconify.design/material-symbols:favorite-rounded.svg?color=%23ef4444" width="22" align="center" /> Thanks for visiting! Let's build something extraordinary together.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EF4444,100:F59E0B&height=120&section=footer&animation=twinkling" width="100%"/>
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Bangers&size=22&pause=1500&color=F97316&center=true&vCenter=true&width=500&height=40&lines=Mata+ne!+(See+you+again!))](https://git.io/typing-svg)
+
 
 [![](https://visitcount.itsvg.in/api?id=HimanshuPathak2725&icon=6&color=1)](https://visitcount.itsvg.in)
+
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWJodm1kMGlzbjdxZHo4dTJkNWEzaXc3am5ybG0zbW1vYnQ4YmU0MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/NmkTFSjMgWulkrREYI/giphy.gif" width="280"/>
 
 </div>
