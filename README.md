@@ -145,11 +145,13 @@ _This section refreshes automatically via GitHub Actions every 6 hours._
 <br>
 
 <div align="center">
-<img src="https://github-stats-extended.vercel.app/api?username=HimanshuPathak2725&bg_color=0d1117&title_color=ef4444&text_color=e2e8f0&icon_color=f59e0b&hide_border=true&count_private=true" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=HimanshuPathak2725&background=0d1117&ring=ef4444&fire=ff5733&currStreakNum=ef4444&currStreakLabel=e2e8f0&sideNums=f59e0b&sideLabels=e2e8f0&dates=e2e8f0&hide_border=true" width="48%" />
-<br><br>
- 
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=HimanshuPathak2725&bg_color=0d1117&title_color=ef4444&text_color=e2e8f0&icon_color=f59e0b&hide_border=true&include_all_commits=true&count_private=true&layout=compact" width="40%" />
+  <img src="https://github-stats-extended.vercel.app/api?username=HimanshuPathak2725&bg_color=0d1117&title_color=ef4444&text_color=e2e8f0&icon_color=f59e0b&hide_border=true&count_private=true" width="48%" />
+  
+  <img src="./profile/streak.svg" width="48%" />
+  
+  <br><br>
+  
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=HimanshuPathak2725&bg_color=0d1117&title_color=ef4444&text_color=e2e8f0&icon_color=f59e0b&hide_border=true&include_all_commits=true&count_private=true&layout=compact" width="40%" />
 </div>
 
 <br>
