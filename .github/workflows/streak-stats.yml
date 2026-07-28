@@ -1,0 +1,30 @@
+name: Update streak stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Daily raat ko update hoga
+  workflow_dispatch: # Actions tab se manually run karne ke liye
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=HimanshuPathak2725&background=0d1117&ring=ef4444&fire=ff5733&currStreakNum=ef4444&currStreakLabel=e2e8f0&sideNums=f59e0b&sideLabels=e2e8f0&dates=e2e8f0&hide_border=true
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit streak stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/streak.svg
+          git commit -m "Update streak stats" || exit 0
+          git push
