@@ -10,11 +10,11 @@
 
 <!-- LIVE-STATS:START -->
 
-🟢 **Status:** Online — last synced Fri, 14 Aug 2026 12:48:16 GMT
+🟢 **Status:** Online — last synced Fri, 14 Aug 2026 18:42:59 GMT
 
-📌 **Latest public activity:** `No recent public commits found` in `HimanshuPathak2725/AI-Resume-Analyzer` (9 minutes ago)
+📌 **Latest public activity:** `No recent public commits found` in `HimanshuPathak2725/Crowd-Management-system` (2 hours ago)
 
-📦 **Public repos:** 73   👥 **Followers:** 8
+📦 **Public repos:** 75   👥 **Followers:** 7
 
 _This section refreshes automatically via GitHub Actions every 6 hours._
 
