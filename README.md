@@ -7,6 +7,9 @@ I build systems and run controlled experiments to understand how agents learn fr
 [Portfolio](https://himanshupathak.is-a.dev/) · [GitHub](https://github.com/HimanshuPathak2725) · [LinkedIn](https://www.linkedin.com/in/himanshu-pathak-/) · [Hugging Face](https://huggingface.co/HimanshuPathak)
 
 ## Selected Work
+these include my personal projects that I have built so far other than my research works.
+<details>
+<summary>Some of my works</summary>
 
 ### [Let Execution Do the Teaching](https://github.com/HimanshuPathak2725/let-execution-do-the-teaching)
 
@@ -19,6 +22,8 @@ A systems-security project exploring network filtering and threat analysis with 
 ### [Fraud Radar](https://github.com/HimanshuPathak2725/Real_Time_Fraud_Detection_System)
 
 A real-time fraud-scoring prototype built with Python, Isolation Forest, FastAPI, and Kafka. It uses synthetic transaction data to explore anomaly scoring, event processing, and live WebSocket monitoring. This is a learning and portfolio project, not a production fraud-detection system.
+</details>
+
 
 ## Research & Writing
 
