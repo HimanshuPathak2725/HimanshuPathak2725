@@ -1,6 +1,6 @@
 # Hi, I'm Himanshu Pathak
 
-I'm a B.Tech CSE student and RL Engineering Intern at Wootzapp, interested in reinforcement learning, LLM post-training, and the evaluation of intelligent systems.
+I'm a B.Tech CSE student and RL Research Intern at Wootzapp, interested in reinforcement learning, LLM post-training, and the evaluation of intelligent systems.
 
 I build systems and run controlled experiments to understand how agents learn from rewards, execution feedback, and imperfect models. My work spans RL research, coding-model evaluation, systems engineering, and open-source software.
 
