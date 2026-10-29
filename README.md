@@ -1,242 +1,152 @@
-<div align="center">
+# Hi, I'm Himanshu Pathak
 
-![Banner Profile](https://profilyze-api.vercel.app/api/profile/banner?name=HIMANSHU+PATHAK&role=FULLSTACK+DEVELOPER&background=itachi2&tech=github&streaks=fire&view=sharingan&skills=reactjs%2Cnodejs%2Cvuejs%2Cpython%2Cgopher&v=2)
-<!-- Anime-style typing banner. Change `font=` to any Google Font name (e.g. Permanent+Marker, Yuji+Syuku, Bebas+Neue) -->
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Bangers&size=32&duration=3000&pause=1200&color=EF4444&center=true&vCenter=true&width=650&height=70&lines=HIMANSHU+PATHAK;FULL-STACK+%2B+AI%2FML+ENGINEER;%E3%82%88%E3%82%8D%E3%81%97%E3%81%8F!+Welcome+to+my+repo)](https://git.io/typing-svg)
+I'm a B.Tech CSE student and RL Engineering Intern at Wootzapp, interested in reinforcement learning, LLM post-training, and the evaluation of intelligent systems.
 
-</div>
+I build systems and run controlled experiments to understand how agents learn from rewards, execution feedback, and imperfect models. My work spans RL research, coding-model evaluation, systems engineering, and open-source software.
 
-## <img src="https://api.iconify.design/material-symbols:sensors.svg?color=%23ef4444" width="26" align="center" /> Live Status
+[Portfolio](https://himanshupathak.is-a.dev/) · [GitHub](https://github.com/HimanshuPathak2725) · [LinkedIn](https://www.linkedin.com/in/himanshu-pathak-/) · [Hugging Face](https://huggingface.co/HimanshuPathak)
 
-<!-- LIVE-STATS:START -->
+## Selected Work
 
-🟢 **Status:** Online — last synced Thu, 29 Oct 2026 03:47:19 GMT
+### [Let Execution Do the Teaching](https://github.com/HimanshuPathak2725/let-execution-do-the-teaching)
 
-📌 **Latest public activity:** `No recent public commits found` in `HimanshuPathak2725/NewPortfolio` (18 hours ago)
+Research and evaluation work on coding-model post-training, including supervised fine-tuning, GRPO, execution-based verification, and multi-turn feedback. The repository contains evaluation artifacts, verifier implementations, and experiments comparing training approaches using executable tests and task-level evidence.
 
-📦 **Public repos:** 97   👥 **Followers:** 31
+### [VaporWall](https://github.com/HimanshuPathak2725/VaporWall)
 
-_This section refreshes automatically via GitHub Actions every 6 hours._
+A systems-security project exploring network filtering and threat analysis with Rust and eBPF/XDP. Its architecture combines kernel-level packet filtering with asynchronous user-space inspection, TCP stream reassembly, signature matching, and ONNX-based threat classification.
 
-<!-- LIVE-STATS:END -->
+### [Fraud Radar](https://github.com/HimanshuPathak2725/Real_Time_Fraud_Detection_System)
 
-<table align="center" border="0" width="100%">
-<tr>
-<td width="65%" valign="top">
+A real-time fraud-scoring prototype built with Python, Isolation Forest, FastAPI, and Kafka. It uses synthetic transaction data to explore anomaly scoring, event processing, and live WebSocket monitoring. This is a learning and portfolio project, not a production fraud-detection system.
 
-- <img src="https://api.iconify.design/material-symbols:school-rounded.svg?color=%23f59e0b" width="20" align="center" /> **B.Tech CSE** | 3rd Year
-- <img src="https://api.iconify.design/material-symbols:code-rounded.svg?color=%23ef4444" width="20" align="center" /> **Role:** Full-Stack Developer + AI/ML Engineer
-- <img src="https://api.iconify.design/material-symbols:public.svg?color=%23f97316" width="20" align="center" /> **Domain:** Full-Stack Web Dev | AI/ML | Agentic Engineering
-- <img src="https://api.iconify.design/material-symbols:psychology-rounded.svg?color=%23f59e0b" width="20" align="center" /> **Languages:** Java, JavaScript, TypeScript, Python
-- <img src="https://api.iconify.design/material-symbols:local-fire-department-rounded.svg?color=%23ef4444" width="20" align="center" /> **Interests:** LLMs, Agentic Workflows, Microservices, Open-Source AI
-- <img src="https://api.iconify.design/material-symbols:rocket-launch-rounded.svg?color=%23f97316" width="20" align="center" /> **Currently:** Building production-ready apps & exploring Quantum ML
-- <img src="https://api.iconify.design/material-symbols:handshake-rounded.svg?color=%23f59e0b" width="20" align="center" /> **Open to:** Open-source AI initiatives, LLM projects & innovative web dev
-- <img src="https://api.iconify.design/material-symbols:bolt-rounded.svg?color=%23ef4444" width="20" align="center" /> **Vibe:** Local-first. Open-source. Always learning.
+## Research & Writing
 
-</td>
-<td width="35%" align="center" valign="middle">
+I use small, inspectable experiments to investigate learning dynamics, reward design, uncertainty, and model-based decision-making.
 
-<img src="https://media1.tenor.com/m/dAcNU9ZL7KUAAAAd/itachi-uchiha.gif" width="200"/>
+<details>
+<summary><strong>Selected research notes and interactive experiments</strong></summary>
 
-</td>
-</tr>
-</table>
+- **[Policy Gradients and the Meaning of Credit](https://himanshupathak.is-a.dev/posts/policy-gradients-and-the-meaning-of-credit/)** — An experiment on stochastic policy-gradient updates, baselines, and the difference between an unbiased estimator and the outcome of an individual update.
 
-<p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Permanent+Marker&size=16&pause=1500&color=F59E0B&center=true&vCenter=true&width=750&height=30&lines=%22Thanks+for+dropping+by!+Let's+build+something+amazing+together%22" align="center"/></a>
-</p>
+- **[Reward Shaping Without Changing the Task](https://himanshupathak.is-a.dev/posts/reward-shaping-without-changing-the-task/)** — A controlled Q-learning experiment exploring how potential-based reward shaping can preserve returns while changing the learning trajectory.
 
-<br>
+- **[What Uncertainty Can Tell a Planner](https://himanshupathak.is-a.dev/posts/what-uncertainty-can-tell-a-planner/)** — An investigation into model misspecification, predictive uncertainty, extrapolation, and the value of collecting informative observations.
 
-<table align="center" border="0" width="100%">
-<tr>
-<td width="50%" valign="top">
+- **[The World Models Today](https://himanshupathak.is-a.dev/posts/the-world-models-today/)** — An interactive guide to latent dynamics, partial observability, planning, and evaluating predictions through their consequences for decisions.
 
-### <img src="https://api.iconify.design/material-symbols:explore-rounded.svg?color=%23f97316" width="22" align="center" /> What I'm Up To
-- **Building** production-ready microservices & full-stack apps
-- **Exploring** Quantum ML, Agentic Engineering & LLMs
-- **Growing** in Advanced DSA & System Design
-- **Solving** problems on LeetCode daily
-- **Contributing** to open-source AI projects
+</details>
 
-</td>
-<td width="50%" valign="top">
+## Technical Skills
 
-### <img src="https://api.iconify.design/material-symbols:info-rounded.svg?color=%23f59e0b" width="22" align="center" /> Quick Facts
-- **Domain:** Computer Science & AI/ML
-- **Ask me about:** React, Python, Local LLM deployments (Ollama)
-- **Open to:** Open-source AI & Full-Stack collabs
-- **Passion:** Building scalable, intelligent systems
-- **Vibe:** Local-first. Open-source. Always learning.
+- **RL & LLMs:** Policy gradients, reward shaping, GRPO workflows, supervised fine-tuning, execution-based evaluation, verifier design
+- **Machine Learning:** PyTorch, Hugging Face, scikit-learn, NumPy, ONNX
+- **Languages:** Python, C++, Go, Rust, TypeScript, JavaScript
+- **Backend & Systems:** FastAPI, Node.js, Kafka, Docker, Linux, eBPF/XDP, WebSockets
+- **Web & Data:** React, Next.js, PostgreSQL, Supabase, MongoDB
 
-</td>
-</tr>
-</table>
+## Open Source Contributions
 
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:EF4444,100:F59E0B&height=4&section=header" width="100%"/>
+My open-source work includes core Go engineering, WebSocket security, backend authorization, AI input hardening, distributed-system reliability, resource management, and developer tooling.
 
-## <img src="https://api.iconify.design/material-symbols:share-reviews-rounded.svg?color=%23f97316" width="26" align="center" /> Let's Connect!
+<details>
+<summary><strong>ECSoC'26 — Go Gatekeeper: Concurrency, WebSocket Security &amp; Runtime Reliability</strong></summary>
 
-<div align="center">
+Contributed core Go changes to a collaborative remote-terminal relay.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-to-infinity.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/himanshu-pathak-3065a6325)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/3kQhDrKZ)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/himanshu_pathak_2725)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@himanshupathak6078)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/HIMANSHUPATHAK2725/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:himanshu2725pathak@gmail.com)
+- **[Prevent a goroutine leak during room teardown — #8](https://github.com/VishalRaut2106/go-gatekeeper/pull/8)** · Merged  
+  Fixed a blocked `readPump` during room destruction using a room-level completion channel and synchronized closure. Added a regression test for the host-disconnect scenario with a connected guest.
 
-</div>
+- **[Add per-IP WebSocket rate limiting — #9](https://github.com/VishalRaut2106/go-gatekeeper/pull/9)** · Merged  
+  Added rate limiting before WebSocket upgrades to restrict excessive connection attempts.
 
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:EF4444,100:F59E0B&height=4&section=header" width="100%"/>
+- **[Validate WebSocket Origin headers — #17](https://github.com/VishalRaut2106/go-gatekeeper/pull/17)** · Merged  
+  Added an Origin allowlist to strengthen the WebSocket security boundary.
 
-## <img src="https://api.iconify.design/material-symbols:handyman.svg?color=%23f59e0b" width="26" align="center" /> Tech Arsenal
+- **[Stop exposing session codes through `/stats` — #20](https://github.com/VishalRaut2106/go-gatekeeper/pull/20)** · Merged  
+  Removed session codes from the unauthenticated statistics endpoint and increased generated code length from six to ten hexadecimal characters.
 
-<div align="center">
+- **[Enforce WebSocket message limits and keepalives — #30](https://github.com/VishalRaut2106/go-gatekeeper/pull/30)** · Merged  
+  Added a 32 KiB message-size limit, read/write deadlines, and ping/pong handling to improve resource control and connection lifecycle management.
 
-### <img src="https://api.iconify.design/material-symbols:terminal-rounded.svg?color=%23ef4444" width="20" align="center" /> Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+- **[Implement graceful shutdown — #18](https://github.com/VishalRaut2106/go-gatekeeper/pull/18)** · Merged  
+  Added signal-aware shutdown handling for `SIGTERM` and `SIGINT`.
 
-### <img src="https://api.iconify.design/material-symbols:desktop-windows-rounded.svg?color=%23f97316" width="20" align="center" /> Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+- **[Verify downloaded CLI binaries with SHA-256 — #19](https://github.com/VishalRaut2106/go-gatekeeper/pull/19)** · Merged  
+  Added checksum generation and verification to strengthen downloaded-binary integrity.
 
-### <img src="https://api.iconify.design/material-symbols:dns.svg?color=%23f59e0b" width="20" align="center" /> Backend & Infrastructure
-![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+</details>
 
-### <img src="https://api.iconify.design/material-symbols:database.svg?color=%23ef4444" width="20" align="center" /> Databases & Tools
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+<details>
+<summary><strong>ECSoC'26 — MediFlow: AI Security, Authorization &amp; Backend Reliability</strong></summary>
 
-### <img src="https://api.iconify.design/material-symbols:memory-rounded.svg?color=%23f97316" width="20" align="center" /> AI / ML & LLMs
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+- **[Harden AI prompt construction against untrusted input — #443](https://github.com/Nebulyn-Labs/MediFlow/pull/443)** · Merged  
+  Added prompt-hardening utilities across Node.js and Dart, sanitized user-controlled input before delimiting it, and introduced automated tests for delimiter spoofing and instruction-override attempts.
 
-</div>
+- **[Validate facility ownership during registration — #394](https://github.com/Nebulyn-Labs/MediFlow/pull/394)** · Merged  
+  Strengthened facility ownership validation to prevent users from registering themselves against another facility.
 
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:EF4444,100:F59E0B&height=4&section=header" width="100%"/>
+- **[Handle transient Firestore approval failures correctly — #445](https://github.com/Nebulyn-Labs/MediFlow/pull/445)** · Merged  
+  Separated expected business-rule failures from transient infrastructure errors so retryable failures are not incorrectly treated as permanent rejections.
 
-## <img src="https://api.iconify.design/material-symbols:bar-chart-rounded.svg?color=%23ef4444" width="26" align="center" /> GitHub Analytics
+- **[Add rate limiting to callable Cloud Functions — #96](https://github.com/Nebulyn-Labs/MediFlow/pull/96)** · Merged  
+  Introduced reusable server-side rate limiting to reduce endpoint abuse and excessive AI inference costs.
 
-<div align="center">
+</details>
 
-[![GitHub followers](https://img.shields.io/github/followers/HimanshuPathak2725?label=Followers&style=for-the-badge&color=EF4444&labelColor=0d1117&logo=github)](https://github.com/HimanshuPathak2725)
-[![GitHub stars](https://img.shields.io/github/stars/HimanshuPathak2725?label=Total%20Stars&style=for-the-badge&color=F97316&labelColor=0d1117&logo=github)](https://github.com/HimanshuPathak2725)
+<details>
+<summary><strong>ECSoC'26 — YuvaHub: Database Security, Messaging &amp; Cache Management</strong></summary>
 
-</div>
+- **[Prevent Firestore privilege escalation — #619](https://github.com/uditt490-pixel/YuvaHub/pull/619)** · Merged  
+  Tightened Firestore access controls, added ownership checks for events and groups, and introduced 33 automated security-rule tests.
 
-<br>
+- **[Add RabbitMQ publisher confirms and dead-letter queues — #565](https://github.com/uditt490-pixel/YuvaHub/pull/565)** · Merged  
+  Improved message-delivery observability with publisher confirmations, bounded retries, dead-letter routing, and regression tests.
 
-<div align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=HimanshuPathak2725&bg_color=0d1117&title_color=ef4444&text_color=e2e8f0&icon_color=f59e0b&hide_border=true&count_private=true" width="48%" />
-  
-  <img src="./profile/streak.svg" width="48%" />
-  
-  <br><br>
-  
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=HimanshuPathak2725&bg_color=0d1117&title_color=ef4444&text_color=e2e8f0&icon_color=f59e0b&hide_border=true&include_all_commits=true&count_private=true&layout=compact" width="40%" />
-</div>
+- **[Add LRU eviction to the persistent API cache — #562](https://github.com/uditt490-pixel/YuvaHub/pull/562)** · Merged  
+  Added bounded cache eviction and recovery from browser storage quota errors while preserving the existing two-tier cache design.
 
-<br>
+</details>
 
-<div align="center">
+<details>
+<summary><strong>ECSoC'26 — Developer Tooling: Code Retrieval, Tracing &amp; Project Detection</strong></summary>
 
-| Metric | Details |
-|-----------|-----------|
-| Username | HimanshuPathak2725 |
-| Profile | [github.com/HimanshuPathak2725](https://github.com/HimanshuPathak2725) |
-| Portfolio | [portfolio-to-infinity.vercel.app](https://portfolio-to-infinity.vercel.app) |
-| Primary Stack | Java · JavaScript · Python · React |
-| Domain | Full-Stack · AI/ML · Agentic Engineering |
-| Public Repos | Visit profile to see latest |
-| Focus | Building & Learning every day |
+- **[Add AST-based symbol-level indexing — DevWhisper #173](https://github.com/Aharshi3614/Devwhisper/pull/173)** · Merged  
+  Introduced Python AST-based extraction of functions, classes, and methods as discrete indexing units. Combined symbol-level and line-based chunks, enriched retrieval metadata, and added tests. The PR reports 80 passing tests, including 18 new tests.
 
-</div>
+- **[Add scoped symbol tracing — DiffGuardian #19](https://github.com/Aryan0628/diffguardian/pull/19)** · Merged  
+  Added `--scope` support to limit trace results to a directory or package, including path normalization and filtering during recursive barrel traversal.
 
-<br>
+- **[Add JSON output to the trace CLI — DiffGuardian #16](https://github.com/Aryan0628/diffguardian/pull/16)** · Merged  
+  Added structured JSON output for trace results, making the CLI easier to integrate into automated workflows.
 
-<div align="center">
+- **[Improve Python project detection fallbacks — RepoStart #37](https://github.com/ZarrarPeshimam/RepoStart/pull/37)** · Merged  
+  Added fallback detection through common Python entry-point files when dependency manifests are absent, while preserving information about how a project was detected.
 
-> Stats update automatically as I push more code — stay tuned!
+</details>
 
-</div>
+<details>
+<summary><strong>ECSoC'26 — Security &amp; Resource Management</strong></summary>
 
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:EF4444,100:F59E0B&height=4&section=header" width="100%"/>
+- **[Prevent DNS rebinding in webhook requests — Semantic Plagiarism Detector #1695](https://github.com/Ganesh-403/semantic-plagiarism-detector/pull/1695)** · Merged  
+  Added DNS-pinning support to the SSRF protection layer, using the validated IP for requests while preserving the hostname and supporting IPv6. Included six focused security tests.
 
-## <img src="https://api.iconify.design/material-symbols:rewarded-ads-rounded.svg?color=%23f97316" width="26" align="center" /> Achievements
+- **[Add concurrent SQLite thread-safety stress tests — Semantic Plagiarism Detector #1697](https://github.com/Ganesh-403/semantic-plagiarism-detector/pull/1697)** · Merged  
+  Added stress testing for SQLite connection behavior under concurrent access.
 
-<div align="center">
+- **[Fix WebAssembly memory leaks in PDF signature verification — WorkSphere #2138](https://github.com/SatyamPandey-07/WorkSphere/pull/2138)** · Merged  
+  Added explicit WASM heap cleanup, worker lifecycle handling, and a memory-retention test covering 50 consecutive verifications.
 
-![Repos](https://img.shields.io/badge/Public%20Repos-Growing-EF4444?style=for-the-badge&labelColor=0d1117&logo=git)
-![LeetCode](https://img.shields.io/badge/LeetCode-Active-FFA116?style=for-the-badge&labelColor=0d1117&logo=leetcode)
-![Streak](https://img.shields.io/badge/Coding-Daily-F97316?style=for-the-badge&labelColor=0d1117&logo=codeforces)
-![Stack](https://img.shields.io/badge/Stack-Full%20Stack-F59E0B?style=for-the-badge&labelColor=0d1117&logo=visualstudiocode)
-![Domain](https://img.shields.io/badge/Domain-AI%2FML%20Lead-EF4444?style=for-the-badge&labelColor=0d1117&logo=openai)
-![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-F97316?style=for-the-badge&labelColor=0d1117&logo=github)
+- **[Prevent open redirects in download URLs — PrepPilot #306](https://github.com/Canopus-Labs/PrepPilot/pull/306)** · Merged  
+  Added URL parsing and HTTPS validation, restricted redirects to an allowlisted download host, and introduced regression tests for unsafe redirect targets.
 
-</div>
+</details>
 
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:EF4444,100:F59E0B&height=4&section=header" width="100%"/>
+## Current Interests
 
-## <img src="https://api.iconify.design/material-symbols:equalizer-rounded.svg?color=%23ffa116" width="26" align="center" /> LeetCode Stats
-
-<div align="center">
-<img src="https://leetcard.jacoblin.cool/HIMANSHUPATHAK2725?theme=dark&font=JetBrains+Mono&ext=heatmap&hide_border=true&border=0&radius=10" width="60%" />
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:EF4444,100:F59E0B&height=4&section=header" width="100%"/>
-
-## <img src="https://api.iconify.design/material-symbols:format-quote-rounded.svg?color=%23f59e0b" width="26" align="center" /> Dev Quote of the Day
-
-<div align="center">
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&bg_color=0d1117&title_color=ef4444&text_color=e2e8f0" width="70%" />
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:EF4444,100:F59E0B&height=4&section=header" width="100%"/>
-
-## <img src="https://api.iconify.design/material-symbols:star-rate-rounded.svg?color=%23ef4444" width="26" align="center" /> Skill Proficiency
-
-<div align="center">
-
-| Domain | Skills | Level |
-|--------|--------|-------|
-| Frontend | React, Next.js, TailwindCSS, Vite | ████████░░ 80% |
-| Backend | Node.js, Spring, Docker, Linux | ████████░░ 80% |
-| AI / LLMs | Ollama, LangChain, PyTorch, HuggingFace | ███████░░░ 70% |
-| Languages | Java, JavaScript, TypeScript, Python | ████████░░ 80% |
-| Databases | MongoDB, PostgreSQL | ███████░░░ 70% |
-| DevOps & Tools | Git, Docker, Postman, Linux | ███████░░░ 70% |
-
-</div>
+Reinforcement learning · LLM post-training · Coding-agent evaluation · Reward design · Model uncertainty · World models · Systems engineering
 
 ---
 
-<div align="center">
+More about my work and experiments: [himanshupathak.is-a.dev](https://himanshupathak.is-a.dev/)
 
-### <img src="https://api.iconify.design/material-symbols:favorite-rounded.svg?color=%23ef4444" width="22" align="center" /> Thanks for visiting! Let's build something extraordinary together.
-
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Bangers&size=22&pause=1500&color=F97316&center=true&vCenter=true&width=500&height=40&lines=Mata+ne!+(See+you+again!))](https://git.io/typing-svg)
-
-
-[![](https://visitcount.itsvg.in/api?id=HimanshuPathak2725&icon=6&color=1)](https://visitcount.itsvg.in)
-
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWJodm1kMGlzbjdxZHo4dTJkNWEzaXc3am5ybG0zbW1vYnQ4YmU0MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/NmkTFSjMgWulkrREYI/giphy.gif" width="280"/>
-
-</div>
