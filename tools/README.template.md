@@ -1,5 +1,5 @@
 <!-- Hosted visuals: capsule-render (dividers), skillicons.dev (tech icons), Google Noto animated emoji (stickers).
-     Local visuals: assets/type/ = text + badges pre-rendered as SVG outlines in Orbitron / Oxanium / Share Tech Mono
+    Local visuals: assets/type/ = text + badges pre-rendered as SVG outlines in Ithaca / Orbitron / Oxanium / Share Tech Mono
      (GitHub READMEs cannot load web fonts). Rebuild with: python tools/build_type.py -->
 
 <div align="center">

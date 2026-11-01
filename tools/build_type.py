@@ -5,7 +5,8 @@ Typography build for the profile README.
 GitHub's Markdown renderer ignores custom fonts, so selected text is rendered
 once, here, into SVG *outlines* (no font files needed at view time) using:
 
-  Orbitron          - greeting + section headings
+    Ithaca            - greeting
+    Orbitron          - section headings
   Oxanium           - project / research-note / group titles
   Share Tech Mono   - labels, tags, PR titles, badges
 
@@ -98,6 +99,7 @@ FACES = {}
 
 def load_faces():
     for key, (label, fn) in {
+        "ith": ("Ithaca", "Ithaca-LVB75.ttf"),
         "orb": ("Orbitron", "Orbitron-Bold.ttf"),
         "oxb": ("Oxanium Bold", "Oxanium-Bold.ttf"),
         "oxs": ("Oxanium SemiBold", "Oxanium-SemiBold.ttf"),
@@ -120,8 +122,10 @@ def B(key, alt, parts, size, h, tracking, pad, upper, icon=None, icon_color=None
                     pad=pad, upper=upper, icon=icon, icon_color=icon_color, kind="badge"))
 
 
-# Orbitron: identity + section headings
-T("greeting", "Hi, I am Himanshu Pathak", "orb", 22, 30)
+# Ithaca: identity
+T("greeting", "Hi, I am Himanshu Pathak", "ith", 22, 30)
+
+# Orbitron: section headings
 for k, t in [("h_stats", "Live GitHub Stats"), ("h_work", "Selected Work"),
              ("h_research", "Research & Writing"), ("h_skills", "Technical Skills"),
              ("h_oss", "Open Source Contributions"), ("h_interests", "Current Interests")]:
