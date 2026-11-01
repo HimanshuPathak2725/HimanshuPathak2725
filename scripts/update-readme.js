@@ -42,19 +42,23 @@ function timeAgo(date) {
 
 async function main() {
   const user = await fetchJson(`https://api.github.com/users/${USERNAME}`);
-  const events = await fetchJson(`https://api.github.com/users/${USERNAME}/events/public?per_page=30`);
-  const pushEvent = Array.isArray(events) ? events.find((event) => event.type === 'PushEvent') : null;
+  const commitSearch = await fetchJson(
+    `https://api.github.com/search/commits?q=author:${encodeURIComponent(USERNAME)}&sort=committer-date&order=desc&per_page=30`,
+  );
+  const profileRepo = `${USERNAME}/${USERNAME}`.toLowerCase();
+  const latestCommit = Array.isArray(commitSearch.items)
+    ? commitSearch.items.find((item) => item.repository?.full_name?.toLowerCase() !== profileRepo)
+    : null;
 
   let latestCommitMsg = 'No recent public commits found';
   let latestCommitRepo = '—';
   let latestCommitTime = '—';
 
-  if (pushEvent) {
-    const commits = pushEvent.payload.commits || [];
-    const lastCommit = commits[commits.length - 1];
-    if (lastCommit) latestCommitMsg = escapeMarkdown(lastCommit.message.split('\n')[0]);
-    latestCommitRepo = escapeMarkdown(pushEvent.repo.name);
-    latestCommitTime = timeAgo(new Date(pushEvent.created_at));
+  if (latestCommit) {
+    latestCommitMsg = escapeMarkdown(latestCommit.commit.message.split('\n')[0]);
+    latestCommitRepo = escapeMarkdown(latestCommit.repository.full_name);
+    const commitDate = latestCommit.commit.committer?.date || latestCommit.commit.author?.date;
+    if (commitDate) latestCommitTime = timeAgo(new Date(commitDate));
   }
 
   const timestamp = new Date().toUTCString();
