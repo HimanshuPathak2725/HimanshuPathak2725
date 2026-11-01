@@ -17,6 +17,24 @@ I'm a B.Tech CSE student and RL Research Intern at Wootzapp, interested in reinf
 
 I build systems and run controlled experiments to understand how agents learn from rewards, execution feedback, and imperfect models. My work spans RL research, coding-model evaluation, systems engineering, and open-source software.
 
+## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4ca/512.gif" width="30" height="30" alt="" /> Live GitHub Stats
+
+<p align="center">
+  <img src="profile/streak.svg" width="495" alt="GitHub contribution streak" />
+</p>
+
+<!-- LIVE-STATS:START -->
+
+🟢 **Status:** Online — last synced Sun, 01 Nov 2026 03:50:36 GMT
+
+📌 **Latest public activity:** `No recent public commits found` in `HimanshuPathak2725/HimanshuPathak2725` (1 day ago)
+
+📦 **Public repos:** 98   👥 **Followers:** 32
+
+_This section refreshes automatically via GitHub Actions every 6 hours._
+
+<!-- LIVE-STATS:END -->
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:2dd4bf,100:0f2027&height=2" width="100%" alt="" />
 
 ## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" width="30" height="30" alt="" /> Selected Work

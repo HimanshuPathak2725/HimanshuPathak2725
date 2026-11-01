@@ -7,7 +7,11 @@ on:
     - cron: '0 */6 * * *'
   workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
   push:
-    branches: [main]      # also refresh right after you push
+    branches: [main]
+
+concurrency:
+  group: update-readme-stats
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -27,7 +31,7 @@ jobs:
       - name: Update README
         env:
           GH_USERNAME: HimanshuPathak2725
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
         run: node scripts/update-readme.js
 
       - name: Commit changes
@@ -35,3 +39,5 @@ jobs:
         with:
           commit_message: "🤖 Auto-update README stats"
           file_pattern: README.md
+          commit_user_name: github-actions[bot]
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
