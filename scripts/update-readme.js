@@ -1,4 +1,3 @@
-// scripts/update-readme.js
 // Fetches live GitHub data and rewrites the section of README.md
 // between <!-- LIVE-STATS:START --> and <!-- LIVE-STATS:END -->.
 
@@ -6,12 +5,24 @@ const fs = require('fs');
 
 const USERNAME = process.env.GH_USERNAME || 'HimanshuPathak2725';
 const TOKEN = process.env.GH_TOKEN;
-
 const headers = {
-  Authorization: `Bearer ${TOKEN}`,
   Accept: 'application/vnd.github+json',
   'User-Agent': USERNAME,
 };
+
+if (TOKEN) headers.Authorization = `Bearer ${TOKEN}`;
+
+async function fetchJson(url) {
+  const response = await fetch(url, { headers });
+  if (!response.ok) {
+    throw new Error(`GitHub API request failed (${response.status} ${response.statusText}): ${url}`);
+  }
+  return response.json();
+}
+
+function escapeMarkdown(value) {
+  return String(value).replace(/[\\`*_{}[\]()#+.!|>~-]/g, '\\$&');
+}
 
 function timeAgo(date) {
   const seconds = Math.floor((Date.now() - date.getTime()) / 1000);
@@ -30,14 +41,9 @@ function timeAgo(date) {
 }
 
 async function main() {
-  const user = await fetch(`https://api.github.com/users/${USERNAME}`, { headers }).then(r => r.json());
-
-  const events = await fetch(
-    `https://api.github.com/users/${USERNAME}/events/public?per_page=30`,
-    { headers }
-  ).then(r => r.json());
-
-  const pushEvent = Array.isArray(events) ? events.find(e => e.type === 'PushEvent') : null;
+  const user = await fetchJson(`https://api.github.com/users/${USERNAME}`);
+  const events = await fetchJson(`https://api.github.com/users/${USERNAME}/events/public?per_page=30`);
+  const pushEvent = Array.isArray(events) ? events.find((event) => event.type === 'PushEvent') : null;
 
   let latestCommitMsg = 'No recent public commits found';
   let latestCommitRepo = '—';
@@ -46,13 +52,12 @@ async function main() {
   if (pushEvent) {
     const commits = pushEvent.payload.commits || [];
     const lastCommit = commits[commits.length - 1];
-    if (lastCommit) latestCommitMsg = lastCommit.message.split('\n')[0];
-    latestCommitRepo = pushEvent.repo.name;
+    if (lastCommit) latestCommitMsg = escapeMarkdown(lastCommit.message.split('\n')[0]);
+    latestCommitRepo = escapeMarkdown(pushEvent.repo.name);
     latestCommitTime = timeAgo(new Date(pushEvent.created_at));
   }
 
   const timestamp = new Date().toUTCString();
-
   const section = `
 🟢 **Status:** Online — last synced ${timestamp}
 
@@ -64,19 +69,14 @@ _This section refreshes automatically via GitHub Actions every 6 hours._
 `;
 
   const readmePath = 'README.md';
-  let readme = fs.readFileSync(readmePath, 'utf8');
-
+  const readme = fs.readFileSync(readmePath, 'utf8');
   const startMarker = '<!-- LIVE-STATS:START -->';
   const endMarker = '<!-- LIVE-STATS:END -->';
-
   const startIdx = readme.indexOf(startMarker);
   const endIdx = readme.indexOf(endMarker);
 
-  if (startIdx === -1 || endIdx === -1) {
-    console.error(
-      `Markers not found in README.md. Add ${startMarker} and ${endMarker} where you want the live section to appear.`
-    );
-    process.exit(1);
+  if (startIdx === -1 || endIdx === -1 || endIdx < startIdx) {
+    throw new Error(`Markers not found in README.md: ${startMarker} ... ${endMarker}`);
   }
 
   const newReadme =
@@ -93,7 +93,7 @@ _This section refreshes automatically via GitHub Actions every 6 hours._
   console.log('README updated.');
 }
 
-main().catch(err => {
-  console.error(err);
+main().catch((error) => {
+  console.error(error);
   process.exit(1);
 });
