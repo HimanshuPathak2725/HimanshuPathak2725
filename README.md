@@ -26,11 +26,11 @@ I build systems and run controlled experiments to understand how agents learn fr
 
 <!-- LIVE-STATS:START -->
 
-🟢 **Status:** Online — last synced Tue, 03 Nov 2026 13:23:41 GMT
+🟢 **Status:** Online — last synced Tue, 03 Nov 2026 22:44:56 GMT
 
-📌 **Latest public activity:** `Solve Power Iteration` in `HimanshuPathak2725/trentorch\-solutions` (3 hours ago)
+📌 **Latest public activity:** `Add DYNA homepage with Nia research guide` in `HimanshuPathak2725/dyna\-world\-model\-lab` (3 hours ago)
 
-📦 **Public repos:** 98   👥 **Followers:** 31
+📦 **Public repos:** 100   👥 **Followers:** 31
 
 _This section refreshes automatically via GitHub Actions every 6 hours._
 
