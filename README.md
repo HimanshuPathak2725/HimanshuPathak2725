@@ -26,9 +26,9 @@ I build systems and run controlled experiments to understand how agents learn fr
 
 <!-- LIVE-STATS:START -->
 
-🟢 **Status:** Online — last synced Wed, 04 Nov 2026 04:16:03 GMT
+🟢 **Status:** Online — last synced Wed, 04 Nov 2026 13:34:52 GMT
 
-📌 **Latest public activity:** `Add DYNA homepage with Nia research guide` in `HimanshuPathak2725/dyna\-world\-model\-lab` (9 hours ago)
+📌 **Latest public activity:** `Solve Conditional Probability Table` in `HimanshuPathak2725/trentorch\-solutions` (3 hours ago)
 
 📦 **Public repos:** 100   👥 **Followers:** 31
 
