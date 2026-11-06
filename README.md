@@ -26,9 +26,9 @@ I build systems and run controlled experiments to understand how agents learn fr
 
 <!-- LIVE-STATS:START -->
 
-🟢 **Status:** Online — last synced Fri, 06 Nov 2026 04:32:40 GMT
+🟢 **Status:** Online — last synced Fri, 06 Nov 2026 13:32:19 GMT
 
-📌 **Latest public activity:** `Solve Jacobian by Finite Differences` in `HimanshuPathak2725/trentorch\-solutions` (16 hours ago)
+📌 **Latest public activity:** `Rebuild DYNA as a typed model\-based RL learning lab` in `HimanshuPathak2725/dyna\-world\-model\-lab` (2 hours ago)
 
 📦 **Public repos:** 100   👥 **Followers:** 32
 
