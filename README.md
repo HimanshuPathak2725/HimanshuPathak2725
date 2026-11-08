@@ -26,11 +26,11 @@ I build systems and run controlled experiments to understand how agents learn fr
 
 <!-- LIVE-STATS:START -->
 
-🟢 **Status:** Online — last synced Sun, 08 Nov 2026 12:33:06 GMT
+🟢 **Status:** Online — last synced Sun, 08 Nov 2026 21:31:27 GMT
 
-📌 **Latest public activity:** `Rebuild DYNA as a typed model\-based RL learning lab` in `HimanshuPathak2725/dyna\-world\-model\-lab` (2 days ago)
+📌 **Latest public activity:** `Solve sigmoid\-numpy` in `HimanshuPathak2725/TensorTonic\-Solutions` (6 hours ago)
 
-📦 **Public repos:** 100   👥 **Followers:** 32
+📦 **Public repos:** 101   👥 **Followers:** 32
 
 _This section refreshes automatically via GitHub Actions every 6 hours._
 
