@@ -26,9 +26,9 @@ I build systems and run controlled experiments to understand how agents learn fr
 
 <!-- LIVE-STATS:START -->
 
-🟢 **Status:** Online — last synced Sun, 08 Nov 2026 03:44:10 GMT
+🟢 **Status:** Online — last synced Sun, 08 Nov 2026 12:33:06 GMT
 
-📌 **Latest public activity:** `Rebuild DYNA as a typed model\-based RL learning lab` in `HimanshuPathak2725/dyna\-world\-model\-lab` (1 day ago)
+📌 **Latest public activity:** `Rebuild DYNA as a typed model\-based RL learning lab` in `HimanshuPathak2725/dyna\-world\-model\-lab` (2 days ago)
 
 📦 **Public repos:** 100   👥 **Followers:** 32
 
