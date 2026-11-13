@@ -26,11 +26,11 @@ I build systems and run controlled experiments to understand how agents learn fr
 
 <!-- LIVE-STATS:START -->
 
-🟢 **Status:** Online — last synced Fri, 13 Nov 2026 13:43:25 GMT
+🟢 **Status:** Online — last synced Fri, 13 Nov 2026 23:05:38 GMT
 
 📌 **Latest public activity:** `Solve gradient\-descent\-quadratic` in `HimanshuPathak2725/TensorTonic\-Solutions` (1 day ago)
 
-📦 **Public repos:** 101   👥 **Followers:** 32
+📦 **Public repos:** 101   👥 **Followers:** 34
 
 _This section refreshes automatically via GitHub Actions every 6 hours._
 
