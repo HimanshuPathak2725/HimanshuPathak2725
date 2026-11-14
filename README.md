@@ -26,9 +26,9 @@ I build systems and run controlled experiments to understand how agents learn fr
 
 <!-- LIVE-STATS:START -->
 
-🟢 **Status:** Online — last synced Sat, 14 Nov 2026 12:47:52 GMT
+🟢 **Status:** Online — last synced Sat, 14 Nov 2026 21:52:05 GMT
 
-📌 **Latest public activity:** `Solve gradient\-descent\-quadratic` in `HimanshuPathak2725/TensorTonic\-Solutions` (2 days ago)
+📌 **Latest public activity:** `Solve rmsprop\-optimizer` in `HimanshuPathak2725/TensorTonic\-Solutions` (7 hours ago)
 
 📦 **Public repos:** 101   👥 **Followers:** 34
 
