@@ -26,11 +26,11 @@ I build systems and run controlled experiments to understand how agents learn fr
 
 <!-- LIVE-STATS:START -->
 
-🟢 **Status:** Online — last synced Sun, 15 Nov 2026 13:15:10 GMT
+🟢 **Status:** Online — last synced Sun, 15 Nov 2026 22:20:54 GMT
 
-📌 **Latest public activity:** `Solve rmsprop\-optimizer` in `HimanshuPathak2725/TensorTonic\-Solutions` (23 hours ago)
+📌 **Latest public activity:** `Revise README for clarity and project updates` in `HimanshuPathak2725/World\-indepth` (3 hours ago)
 
-📦 **Public repos:** 101   👥 **Followers:** 34
+📦 **Public repos:** 103   👥 **Followers:** 34
 
 _This section refreshes automatically via GitHub Actions every 6 hours._
 
