@@ -26,11 +26,11 @@ I build systems and run controlled experiments to understand how agents learn fr
 
 <!-- LIVE-STATS:START -->
 
-🟢 **Status:** Online — last synced Sun, 22 Nov 2026 04:27:11 GMT
+🟢 **Status:** Online — last synced Sun, 22 Nov 2026 13:52:05 GMT
 
-📌 **Latest public activity:** `Solve homogeneous\-transform` in `HimanshuPathak2725/TensorTonic\-Solutions` (5 days ago)
+📌 **Latest public activity:** `Created using Colab` in `HimanshuPathak2725/googleColab` (6 hours ago)
 
-📦 **Public repos:** 105   👥 **Followers:** 32
+📦 **Public repos:** 106   👥 **Followers:** 32
 
 _This section refreshes automatically via GitHub Actions every 6 hours._
 
