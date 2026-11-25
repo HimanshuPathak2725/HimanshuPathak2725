@@ -26,11 +26,11 @@ I build systems and run controlled experiments to understand how agents learn fr
 
 <!-- LIVE-STATS:START -->
 
-🟢 **Status:** Online — last synced Wed, 25 Nov 2026 01:47:48 GMT
+🟢 **Status:** Online — last synced Wed, 25 Nov 2026 16:35:47 GMT
 
-📌 **Latest public activity:** `Created using Colab` in `HimanshuPathak2725/googleColab` (2 days ago)
+📌 **Latest public activity:** `Created using Colab` in `HimanshuPathak2725/googleColab` (3 days ago)
 
-📦 **Public repos:** 106   👥 **Followers:** 32
+📦 **Public repos:** 106   👥 **Followers:** 33
 
 _This section refreshes automatically via GitHub Actions every 6 hours._
 
